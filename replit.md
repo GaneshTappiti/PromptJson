@@ -56,9 +56,13 @@ Preferred communication style: Simple, everyday language.
 ## External Dependencies
 
 ### Database and Infrastructure
-- **PostgreSQL**: Primary database using Neon serverless PostgreSQL
+- **PostgreSQL**: Primary database using Supabase PostgreSQL
 - **Drizzle ORM**: Type-safe database operations and migrations
 - **Session Store**: PostgreSQL-backed session management
+- **SQL Organization**: Comprehensive SQL scripts organized in `/sql` directory
+  - Migration scripts for schema setup
+  - Query collections for operations (user management, conversions, subscriptions)
+  - Administrative analytics queries
 
 ### Authentication Services
 - **Replit Auth**: OAuth-based authentication provider
@@ -82,3 +86,5 @@ Preferred communication style: Simple, everyday language.
 - **Development Tools**: Replit-specific plugins for cartographer and error handling
 - **Environment**: Configured for Replit hosting with proper domain handling
 - **Debugging**: Runtime error modal for development workflow
+- **Deployment**: Ready for Replit Deployments with Autoscale configuration
+- **Database**: Supabase PostgreSQL integration with organized SQL structure
